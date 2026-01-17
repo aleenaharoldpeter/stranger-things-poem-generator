@@ -1,22 +1,33 @@
 body {
-    background: #000000;
-    color: #921414;
-    font-family: 'Times New Roman';
+    background: #E3D9B7;
+    color: #4d2727;
+    font-family: "Allura", cursive;
     text-align: center;
 }
 
-.glow {
-    margin-top: 100px;
-    font-size: 40px;
-    color: #ff1a1a;
-    text-shadow:
-        0 0 5px #ff1a1a,
-        0 0 10px #ff1a1a,
-        0 0 20px #ff0000,
-        0 0 40px #b30000;
+h1 {
+    font-size: 60px;
+}
+
+.inputtext {
+    padding: 10px 25px;
+    font-family: "Allura", cursive;
+    font-size: 15px;
+}
+
+pre {
+    font-family: "Allura", cursive;
+    text-align: center;
+    font-size: 30px;
 }
 
 a {
     color: #8a5c5c;
     text-decoration: none;
+}
+
+
+footer {
+    font-size: 25px;
+    font-weight: bold;
 }
