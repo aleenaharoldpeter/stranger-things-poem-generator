@@ -1,6 +1,19 @@
 body {
-    background: #07215c;
-    color: #ffffff;
+    background: #000000;
+    color: #921414;
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+
+.glow {
+    margin-top: 100px;
+    font-size: 40px;
+    color: #ff1a1a;
+    text-shadow:
+        0 0 5px #ff1a1a,
+        0 0 10px #ff1a1a,
+        0 0 20px #ff0000,
+        0 0 40px #b30000;
 }
 
 a {
