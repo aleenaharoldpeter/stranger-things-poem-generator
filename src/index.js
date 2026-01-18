@@ -16,6 +16,10 @@ function generatePoem(event) {
     let context = "You are a romantic poem expert and love to write short poems. Your mission is to generate a 4 line poem in basic HTML without explicitly mentioning that it is HTML at the top of the poem. Ensure to follow the user instructions below. SIgn the poem with SheCodes AI in bold and with a hyphen before it";
     let apiKey = "5037o6a07f1bdbdcf547b34731aft69a";
     let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
+
+    let poemElement = document.querySelector("#poem");
+    poemElement.classList.remove("hidden");
+    poemElement.innerHTML = `<div class = "generating">⌛ Generating an English poem about ${instructionsInput.value}...</div>`
     console.log("Generating poem...");
     console.log(`Prompt: ${prompt}`);
     console.log(`Context: ${context}`);
