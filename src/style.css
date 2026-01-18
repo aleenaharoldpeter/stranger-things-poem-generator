@@ -12,10 +12,11 @@ body {
 
 .container {
     margin: 55px auto;
-    width: 900px;
+    width: 90%;
+    max-width: 900px;
     border: 1px solid rgba(140, 110, 80, 0.45);
     outline: 1px solid rgba(140, 110, 80, 0.25);
-    padding: 38px 128px;
+    padding: 30px 40px;
 }
 
 header {
@@ -84,7 +85,7 @@ form {
     background-color: #e5d7afb6;
     padding: 20px;
     text-align: center;
-    line-height: 1.25;
+    line-height: 1.15;
     border-left: 4px solid #968557b6;
     border-radius: 18px;
     box-shadow: 6px 6px 16px 2px rgba(0, 0, 0, 0.06);
