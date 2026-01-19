@@ -14,6 +14,8 @@ function generatePoem(event) {
     let instructionsInput = document.querySelector("#user-instructions")
     let prompt = `Generate an English poem about ${instructionsInput.value}`;
     let context = "You are a romantic poem expert and love to write short poems. Your mission is to generate a 4 line poem in basic HTML without explicitly mentioning that it is HTML at the top of the poem. Ensure to follow the user instructions below. SIgn the poem with SheCodes AI in bold and with a hyphen before it";
+    // ⚠️ Note: In production, API keys should be stored on a backend server to keep them secret.
+    // For this assignment, using the key in frontend is fine as per workshop instructions.
     let apiKey = "5037o6a07f1bdbdcf547b34731aft69a";
     let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
